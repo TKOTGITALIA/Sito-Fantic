@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fantic: dal 1968</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;800&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="site-header">
+        <div class="container header-container">
+            <div class="logo-area">
+                <span class="badge-red">DAL 1968</span>
+                <h1>FANTIC <span>MOTOR</span></h1>
+            </div>
+            <p class="tagline">Archivio Storico dei Modelli & Leggende Fantic</p>
+        </div>
+    </header>
+
+    <main class="container">
+        <section class="filters-section">
+            <div class="search-box">
+                <input type="text" id="searchInput" placeholder="Cerca modello (es. Caballero, Trial, 125)...">
+            </div>
+            <div class="filter-group">
+                <select id="categoryFilter">
+                    <option value="ALL">Tutte le categorie</option>
+                </select>
+                <select id="cycleFilter">
+                    <option value="ALL">Tutti i motori (2T / 4T / Elettrico)</option>
+                    <option value="2 Tempi">2 Tempi</option>
+                    <option value="4 Tempi">4 Tempi</option>
+                    <option value="Elettrico">Elettrico</option>
+                </select>
+            </div>
+        </section>
+
+        <section class="stats-bar">
+            <span id="resultsCount">Caricamento modelli in corso...</span>
+        </section>
+
+        <section class="models-grid" id="modelsGrid">
+            <!-- Le schede dinamiche vengono caricate via JS -->
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container">
+            <p>&copy; Fantic: dal 1968 — Progetto Archivio Storico</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

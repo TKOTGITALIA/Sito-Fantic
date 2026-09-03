@@ -1,0 +1,73 @@
+{
+  "sito": "Fantic: dal 1968",
+  "descrizione": "Archivio storico e moderno dei modelli Fantic Motor",
+  "categorie": [
+    "Fuoristrada & Enduro Storici",
+    "Trial",
+    "Ciclomotori & Utility",
+    "Stradali",
+    "Gamma Moderna"
+  ],
+  "modelli": [
+    {
+      "id": "caballero-50-1969",
+      "nome": "Caballero 50",
+      "categoria": "Fuoristrada & Enduro Storici",
+      "anni": "1969 - 1982",
+      "cilindrata": "49 cc",
+      "ciclo": "2 Tempi",
+      "note": "Il mito fondativo Fantic presentato al Salone di Milano del 1969.",
+      "immagine": "https://images.unsplash.com/photo-1558981806-ec527fa84c39?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": "caballero-125-1971",
+      "nome": "Caballero 125",
+      "categoria": "Fuoristrada & Enduro Storici",
+      "anni": "1971 - 1985",
+      "cilindrata": "124 cc",
+      "ciclo": "2 Tempi",
+      "note": "Icona della Regolarità anni '70 per i giovani dell'epoca.",
+      "immagine": "https://images.unsplash.com/photo-1568772585407-9361f9bf3a87?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": "brissoni-240-1981",
+      "nome": "Caballero 240 Brissoni",
+      "categoria": "Fuoristrada & Enduro Storici",
+      "anni": "1981 - 1983",
+      "cilindrata": "239 cc",
+      "ciclo": "2 Tempi",
+      "note": "Dedicata al campione Gualtiero Brissoni.",
+      "immagine": ""
+    },
+    {
+      "id": "trial-240-1982",
+      "nome": "Trial 240 Professional",
+      "categoria": "Trial",
+      "anni": "1982 - 1986",
+      "cilindrata": "212 cc",
+      "ciclo": "2 Tempi",
+      "note": "Leggendaria moto da trial twinshock utilizzata nei campionati mondiali.",
+      "immagine": ""
+    },
+    {
+      "id": "issimo-50-1978",
+      "nome": "Issimo 50",
+      "categoria": "Ciclomotori & Utility",
+      "anni": "1978 - 1995",
+      "cilindrata": "49 cc",
+      "ciclo": "2 Tempi",
+      "note": "Ciclomotore tubone diventato fenomeno di costume tra i ragazzi italiani.",
+      "immagine": ""
+    },
+    {
+      "id": "caballero-500-2018",
+      "nome": "Caballero 500 Scrambler",
+      "categoria": "Gamma Moderna",
+      "anni": "2018 - Oggi",
+      "cilindrata": "449 cc",
+      "ciclo": "4 Tempi",
+      "note": "Best-seller della gamma moderna, versatile e dallo stile inconfondibile.",
+      "immagine": "https://images.unsplash.com/photo-1568772585407-9361f9bf3a87?auto=format&fit=crop&w=600&q=80"
+    }
+  ]
+}
